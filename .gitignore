@@ -1,0 +1,29 @@
+# Secrets / sensitive — never commit
+*.env
+.env*
+*.pem
+*.key
+*.ppk
+*.pfx
+*.kdbx
+secrets*
+credentials*
+*_creds*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Lab artifacts you usually don't want public
+*.evtx
+*.pcap
+*.pcapng
+*.vmdk
+*.vmx
+*.ova
+*.vdi
+screenshots/raw/
